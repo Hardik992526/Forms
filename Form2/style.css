@@ -1,0 +1,122 @@
+form{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.signUp {
+    width: 424px;
+    background-color: rgb(241, 140, 7);
+}
+.signUp h2 {
+    color: yellow;
+    padding: 12px;
+}
+
+.main{
+    color: yellow;
+    width: 404px;
+    margin-top: -20px;
+    padding: 10px;
+    background-color: rgb(35 35 82);
+}
+
+.inputName{
+    padding: 10px;
+}
+.inputLname{
+    padding: 10px;
+}
+.inputDate{
+    padding: 10px;
+}
+.inputGender{
+    padding: 10px;
+}
+.inputCountry{
+    padding: 10px;
+}
+.inputEmail{
+    padding: 10px;
+}
+.inputPhone{
+    padding: 10px;
+}
+.inputPassword{
+    padding: 10px;
+}
+.inputcpassword{
+    padding: 10px;
+}
+.inputCheckbox{
+    padding: 10px;
+}
+
+.name{
+    margin-left: 70px;
+    width: 57%
+    
+}
+.lname{
+    margin-left: 72px;
+    width: 57%
+}
+.date{
+    margin-left: 58px;
+
+}
+.gender{
+    margin-left: 94px;
+
+}
+.country{
+    width: 60%;
+    margin-left: 90px;
+
+}
+.email{
+    width: 223px;
+    margin-left: 104px;
+
+}
+.phone{
+    width: 223px;
+    margin-left: 102px;
+
+}
+.password{
+    width: 224px;
+    margin-left: 80px;
+
+}
+.cpassword{
+    width: 224px;
+    margin-left: 21px;
+
+}
+.checkbox{
+    margin-left: 145px;
+
+}
+
+.button{
+    width: 400px;
+    padding: 12px;
+    background-color: rgb(241, 140, 7);
+}
+
+#submit{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 254px;  
+}
+
+#cancel{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}

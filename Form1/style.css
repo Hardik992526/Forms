@@ -1,0 +1,48 @@
+.form {
+    background-color: aqua;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#heading th{
+    background-color: yellow;
+    color: red;
+    font-size: 25px;
+}
+
+.name{
+    border: none;
+    width: 97%;
+    background-color: #b6f5e0;
+}
+
+.password{
+    border: none;
+    width: 97%;
+    background-color: #b6f5e0;
+}
+
+#address{
+    border: none;
+    background-color: #b6f5e0;
+}
+
+.select{
+    width: 97%;
+    background-color: #b6f5e0;
+}
+
+.file{
+    border: none;
+    margin-left: 130px;
+    background-color: #b6f5e0;
+}
+
+.btn {
+    border: none;
+    width: 32%;
+    margin: 1px;
+    background-color: #b6f5e0;
+}

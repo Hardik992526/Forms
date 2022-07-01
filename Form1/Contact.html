@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table class="form" border="10">
+        <form action="">
+            <tr id="heading">
+                <th colspan="2">User Form</th>
+            </tr>
+            <tr>
+                <td><label for="name">Enter Name:</label></td>
+                <td><input class="name" type="text"></br></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter Password:</label></td>
+                <td><input class="password" type="password"></br></td>
+            </tr>
+            <tr>
+                <td><label for="name">Enter Address:</label></br></td>
+                <td><textarea name="address" id="address" cols="30" rows="2"></textarea></br></td>
+            </tr>
+            <tr>
+                <td><label for="name">Select Game:</label></br></td>
+                <td>
+                    <input type="checkbox" value="Hockey" checked>Hockey</br>
+                    <input type="checkbox" value="Football">Football</br>
+                    <input type="checkbox" value="Badminton">Badminton</br>
+                    <input type="checkbox" value="Cricket">Cricket</br>
+                    <input type="checkbox" value="Volleyball">Volleyball</br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Gender:</label></br></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked>Male<br>
+                    <input type="radio" name="gender" value="female">Female<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Select Your Age:</label></br></td>
+                <td>
+                    <select class="select">
+                        <option value="">select</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="file" type="file" name="myfile"><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="btn" type="button" value="Click me">
+                    <input class="btn" type="reset" value="Reset">
+                    <input class="btn" type="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
